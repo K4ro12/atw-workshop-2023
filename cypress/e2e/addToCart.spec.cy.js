@@ -3,21 +3,17 @@ describe('Add To Cart Flow', () => {
         cy.visit('');
     })
 
-    it("", () => {
-
-    })
-
-    it("Adding to cart from wishlist shoudnt remove item from wishlist", () => { // P4
+    it("Should not remove item from wishlist when adding it to cart from wishlist", () => { // P4
       //add something to wishlist
         //go to wishlist
         //click on
         //check if item is still in wishlist
         // and has addet to cart text
- cy.log(Cypress.env("defualtFailureRate"))
+        cy.log(Cypress.env("defualtFailureRate"))
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Given I've added plate When I change its addons Then I can buy it with addons", () => { // P1
+    it("Should be able to buy item with set addons", () => { // P1
         //add plate to cart
         //in cart
         // add gloss
@@ -29,7 +25,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Changing Country from pl to use", () => { // P2
+    it("Should change the currency to usd when country set to USA ", () => { // P2
         //add plate to cart
         //in cart
         // change country to poland
@@ -40,7 +36,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Discount", () => { // P2 Note: can add negative case
+    it("Should apply discount on price when valid dicount code is added", () => { // P2 Note: can add negative case
         //add plate to cart
         //in cart click on discount
         // insert  discount code
@@ -49,7 +45,7 @@ describe('Add To Cart Flow', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it("Remove from cart", () => { // P1
+    it("Should be able to remove item from cart", () => { // P1
         //add plate to cart
         // add difrent plate to cart
         // go to cart
