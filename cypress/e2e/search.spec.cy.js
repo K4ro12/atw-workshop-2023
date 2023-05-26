@@ -3,7 +3,7 @@ describe('Search flow', () => {
     cy.visit('');
   });
 
-  it('Should add to wishlist', () => {
+  it('Should add product to wishlist', () => {
     // on home page search for dragon
     // click on heart on any product
     // check if product is added to wishlist
