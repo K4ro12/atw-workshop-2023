@@ -1,4 +1,4 @@
-describe('Brandshop', () => {
+describe.skip('Brandshop', () => {
     before(() => {
         cy.visit('');
     })

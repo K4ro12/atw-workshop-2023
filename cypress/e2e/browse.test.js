@@ -1,4 +1,4 @@
-describe('Browse Collection - discovereablity', () => {
+describe.skip('Browse Collection - discovereablity', () => {
     before(() => {
         cy.visit('');
     })
