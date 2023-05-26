@@ -1,11 +1,11 @@
 
 // Note all test are just dummies
-describe('homepage test', () => {
+describe('Homepage flow', () => {
     before(() => {
         cy.visit('');
     })
 
-    it('CoE', () => {
+    it('Should check if Calender of Events is correct', () => {
         // Enter main page
         // on top of side there should slide with new products and promotion aka Calender of Events
         // check if it displays properly
@@ -16,7 +16,7 @@ describe('homepage test', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-it('Categories', () => {
+it('Should check if tab Categories is correct', () => {
         // check if all categories are displayed
         // check if they are clickable
         // check if they are displayed properly
@@ -24,7 +24,7 @@ it('Categories', () => {
     cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it('page bottom', () => {
+    it('Should check if page bottom is correct', () => {
         // check if footer is displayed
         // check if all elements are displayed
         // check if all elements are clickable
@@ -32,14 +32,14 @@ it('Categories', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it('Logo', () => {
+    it('Should check if tab Logo is displayed and clickable', () => {
         // check if logo is displayed
         // check if logo is clickable
 
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it('Product', () => {
+    it('Should check if product from best selling can be added to cart', () => {
         //check if best selling feed is displayed
         // click first product
         // add it to cart
@@ -49,7 +49,7 @@ it('Categories', () => {
         cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
     })
 
-    it('Search', () => {
+    it('Should check if Search works correctly', () => {
         // check if search bar is displayed
         // check if it is clickable
         // scroll down and check if it is no longer displayed
@@ -61,7 +61,7 @@ it('Categories', () => {
     })
 
 
-    it('Add to wishlist', () => {
+    it('Should check if product can be added to wishlist', () => {
         // select random product in any feed on HomePage
         // click on heart
         // check if product is added to wishlist
