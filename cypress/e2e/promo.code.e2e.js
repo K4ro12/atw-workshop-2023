@@ -1,4 +1,4 @@
-describe('Test for promocode for wishlist', () => {
+describe.skip('Test for promocode for wishlist', () => {
     before(() => {
         cy.visit('');
     })

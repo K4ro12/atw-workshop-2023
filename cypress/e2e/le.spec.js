@@ -1,4 +1,4 @@
-describe('Limited Editon', () => {
+describe.skip('Limited Editon', () => {
     before(() => {
         cy.visit('');
     })

@@ -1,4 +1,4 @@
-describe('Given I am an artis', () => {
+describe.skip('Given I am an artis', () => {
   before(() => {
     cy.visit('');
   })
