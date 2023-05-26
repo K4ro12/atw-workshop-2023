@@ -38,7 +38,7 @@ describe('Search flow', () => {
     cy.randomlyFailTest(Cypress.env('defualtFailureRate'));
   });
 
-  it('Should use search buttom to find products', () => {
+  it('Should show results base on searched phrase', () => {
     //search for cats
     //scroll down to bottom
     //page counter should be displayed
