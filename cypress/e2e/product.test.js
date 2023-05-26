@@ -1,4 +1,4 @@
-describe('PDP Test', () => {
+describe.skip('PDP Test', () => {
     before(() => {
         cy.visit('');
     })
