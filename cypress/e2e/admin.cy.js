@@ -3,7 +3,7 @@ describe('Admin', () => {
     cy.visit('');
   })
 
-  it("DMCA", () => {
+  it("DMCA", () => { // P1
 //go to admin
     // select artis artwork
     // remove artwork and mark it as DMCA violation
@@ -11,7 +11,7 @@ describe('Admin', () => {
     cy.randomlyFailTest(Cypress.env("defualtFailureRate"));
   })
 
-  it("User", () => {
+  it("User", () => { // P2
 //go to admin
     // reset user password
     // check if user is able to login with new password
