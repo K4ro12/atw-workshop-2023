@@ -7,7 +7,7 @@ describe('Add To Cart Flow', () => {//testgit
 
     })
 
-    it("Adding to cart from wishlist shoudnt remove item from wishlist", () => { // P4
+    it("Adding to cart from wishlist shoudnt remove item from wishlist", () => { // P4 mm
       //add something to wishlist
         //go to wishlist
         //click on
